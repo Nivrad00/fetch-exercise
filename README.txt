@@ -1,4 +1,4 @@
-Hello :) This app was made for a Fetch Rewards coding exercise. You can use the web app hosted at [] to run the code. If you'd like to run the code directly, you can call the function textSimilarity() in textSimilarity.js with the two texts as arguments.
+Hello :) This program was made for a Fetch Rewards coding exercise. You can use the web app hosted at http://darvin-heo-fetch-exercise.surge.sh/ to run the code. If you'd like to run the code directly, you can call the function textSimilarity() in textSimilarity.js with the two texts as arguments.
 
 Some words on my process:
 
