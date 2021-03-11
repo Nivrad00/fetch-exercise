@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 0 30px;
+}
+#appContainer {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+}
+.code {
+    font-family: monospace;
+}
+
+/* main stuff */
+
+#main {
+    flex: 1 0 0;
+}
+#main p {
+    margin: 0 30px;
+    text-align: center;
+}
+#textContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 30px;
+}
+#textContainer textarea {
+    flex: 1 0 auto;
+    resize: none;
+    padding: 15px;
+    font-family: sans-serif;
+}
+#fieldA {
+    margin-right: 30px;
+}
+#compareButton {
+    margin: auto;
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+#results {
+    font-size: 50px;
+}
+
+/* sidebar stuff */
+
+#sidebar {
+    width: 200px;
+    flex: 0 0 150px;
+    border-left: 1px solid gray;
+    padding: 0 30px;
+}
+#sidebar p {
+    margin-top: 0;
+    text-align: center;
+}
+#sidebar button {
+    width: 100%;
+}
+#debug {
+    color: gray;
+    font-family: monospace;
+    font-size: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
